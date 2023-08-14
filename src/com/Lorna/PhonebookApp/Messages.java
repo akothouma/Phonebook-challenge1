@@ -1,9 +1,9 @@
 package com.Lorna.PhonebookApp;
 
 public class Messages {
-    String messageText;
-    String recepientName;
-    int id;  // Trying to simulate unique id as in database
+   private String messageText;
+    private String recepientName;
+    private int id;  // Trying to simulate unique id as in database
 
     public String getMessageText() {
         return messageText;
